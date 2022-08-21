@@ -1,0 +1,107 @@
+body{
+    background-color: #23263a;
+}
+
+*{
+    font-family: 'roboto', sans-serif;
+}
+
+header ul{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 70%;
+}
+
+ul li{
+    display:inline-block;
+    justify-content:space-around;
+    margin: 0 5px;
+    font-size:medium
+    
+}
+header p span{
+    color: red;
+    font-size: larger;
+}
+
+header p{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding-left: 3%;
+}
+
+header{
+    background-color: #1f2235;
+}
+
+table p, table th{
+    text-align: left;
+    color: white;
+}
+
+section table th{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section:first-child table{
+    margin-left: 32%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+table p{
+    font-size: small;
+}
+
+table button{
+    background-color: #23263a;
+    color: white;
+    border-color: red;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+div p:first-child{
+    color: red;
+    font-weight: bold;
+    font-size:xx-small;
+    text-align:center
+}
+
+section:first-child+div p:nth-child(2){
+    font-weight: bold;
+}
+
+div p{
+    text-align: center;
+    color: white;
+}
+
+div p:nth-child(3) {
+    font-size:small
+}
+
+section table td{
+    text-align:left;
+    color: white;
+    font-size: smaller;
+}
+
+section table{
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 3%;
+}
+
+table:last-child td{
+    background-color: #23263a;
+    padding: 25px;
+}
+
+section:last-child{
+    background-color: #1f2235;
+    padding-top: 5%;
+}
